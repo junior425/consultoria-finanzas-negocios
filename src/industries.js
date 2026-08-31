@@ -70,8 +70,8 @@ export const INDUSTRIES = [
     id: "veterinarias",
     name: "Veterinarias y Pet Shops",
     short: "Servicios médicos + retail",
-    photo: "photo-1595433707802-6b2626ef1c91",
-    photoAlt: "Profesional de una veterinaria atendiendo a un gato",
+    photo: "photo-1628009368231-7bb7cfcb0def",
+    photoAlt: "Profesional de una veterinaria revisando a un gato en consulta",
     headline: "Equilibra consulta médica y venta de retail",
     metrics: [
       "Balance entre servicios médicos de alto margen y retail",
