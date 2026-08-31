@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream-50 text-charcoal-700 antialiased;
+}
+
+img {
+  @apply select-none;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-growth-500 px-6 py-3.5 text-base font-bold text-navy-900 shadow-soft transition hover:bg-growth-400 focus:outline-none focus-visible:ring-4 focus-visible:ring-growth-300;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/70 bg-white/10 px-6 py-3.5 text-base font-bold text-white transition hover:bg-white hover:text-navy-800 focus:outline-none focus-visible:ring-4 focus-visible:ring-white/40;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-2 border-navy-800 px-6 py-3.5 text-base font-bold text-navy-800 transition hover:bg-navy-800 hover:text-white focus:outline-none focus-visible:ring-4 focus-visible:ring-navy-200;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white shadow-card ring-1 ring-cream-200;
+  }
+
+  .section {
+    @apply mx-auto max-w-6xl px-5 py-16 sm:px-6 sm:py-20 lg:py-24;
+  }
+
+  .eyebrow {
+    @apply text-xs font-bold uppercase tracking-[0.18em] text-growth-600;
+  }
+}
